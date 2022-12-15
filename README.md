@@ -125,7 +125,7 @@ que no nos agrade.
  <img src="./adb.png" alt="Permitir depuración USB."></a>
 </p>
 
-## Abrimos nuestro navegador e ingresamos la misma dirección que antes 
+## Abrimos nuestro navegador en el teléfono móvil e ingresamos la misma dirección que antes 
 es decir:
 ```
       http://127.0.0.1:5500/index.html
