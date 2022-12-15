@@ -14,6 +14,15 @@ pudiendo tener el resultado final a la vista en simultáneo,
 tanto sea en la PC donde se edita 
 como en un teléfono móvil testigo, 
 conectado vía USB a esta computadora.
+
+Y una ventaja increible, 
+la actualización de la vista previa 
+en la PC o en el MOVIL
+ocurren automáticamente.
+
+La aceleración de la programación 
+y la optimización de los recursos 
+al servicio del programador.
 ```
 
 ## 
