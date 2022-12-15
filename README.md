@@ -174,16 +174,16 @@ en cada dispositivo.
 ## 🔧 Creeme acelera mucho tu trabajo.
 ----------------------------------------
 ```
-      Y en el camino no necesitas 
-      tener tu equipo conectado 
-      a Internet ni a ninguna red, 
-      lo que te da un margen 
-      de seguridad inmenso.
+  Y en el camino no necesitas 
+  tener tu equipo conectado 
+  a Internet ni a ninguna red, 
+  lo que te da un margen 
+  de seguridad inmenso.
 
-      En mi caso si no uso Internet
-      con un juego de teclas 
-      conecto o desconecto Internet 
-      en menos de lo se pestañea.      
+  En mi caso si no uso Internet
+  con un juego de teclas 
+  conecto o desconecto Internet
+  en menos de lo se pestañea.      
 ```
 ----------------------------------------
 
