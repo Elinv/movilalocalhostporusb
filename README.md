@@ -9,19 +9,25 @@
 ## 🏁 Iniciemos ⛏️
 ----------------------------------------
 ```
-La posibilidad de editar un sitio web en localhost, 
-pudiendo tener el resultado final a la vista en simultáneo, 
-tanto sea en la PC donde se edita 
-como en un teléfono móvil testigo, 
-conectado vía USB a esta computadora.
+La posibilidad de editar 
+un sitio web en localhost, 
+pudiendo tener el resultado 
+final a la vista en simultáneo, 
+tanto sea en la PC 
+donde se edita 
+como en un teléfono móvil 
+testigo, conectado vía USB a 
+esta computadora.
 
 Y una ventaja increible, 
-la actualización de la vista previa 
+la actualización de la 
+vista previa 
 en la PC o en el MOVIL
 ocurren automáticamente.
 
-La aceleración de la programación 
-y la optimización de los recursos 
+La aceleración de la 
+programación y la optimización 
+de los recursos 
 al servicio del programador.
 ```
 
@@ -29,9 +35,11 @@ al servicio del programador.
 ----------------------------------------
 ```
 Esta posibilidad no solo ofrece 
-una mayor comodidad al programador, 
-si no que no es necesario 
-tener conectada la computadora o el teléfono 
+una mayor comodidad 
+al programador, 
+también el hecho de que no es 
+necesario tener conectada la 
+computadora o el teléfono 
 a ninguna red wifi o cableada.
 ```
 
@@ -45,7 +53,8 @@ en Visual Studio Code,
 sera visualizado en simultáneo 
 en el monitor de la PC 
 y en el display del Móvil, 
-pudiéndose así corregir de inmediato 
+pudiéndose así corregir 
+de inmediato 
 cualquier eventualidad 
 que no nos agrade.
 ```
@@ -58,22 +67,30 @@ que no nos agrade.
 ```
     Nombre: Live Server
     ID: ritwickdey.LiveServer
-    Descripción: Launch a development local Server 
-                 with live reload feature 
-                 for static & dynamic pages
+    Descripción: Launch a 
+                 development 
+                 local Server 
+                 with live 
+                 reload feature 
+                 for static 
+                 & dynamic pages
     Versión: 5.7.9
     Editor: Ritwick Dey
-    id de la extensión: ritwickdey.LiveServer
+    id de la extensión: 
+          ritwickdey.LiveServer
 ```
 - adb instalado.
 ```
     En nuestro caso:
     adb
-    Android Debug Bridge version 1.0.39
+    Android Debug Bridge 
+              version 1.0.39
     Version 1:8.1.0+r23-5ubuntu2
-    Installed as /usr/lib/android-sdk/platform-tools/adb
+    Installed as 
+    /usr/lib/android-sdk/platform-tools/adb
 ```
-- Desarrollar nuestro proyecto en un espacio de trabajo VSC.
+- Desarrollar nuestro proyecto 
+  en un espacio de trabajo VSC.
 
 - Info de nuestra PC.
 ```
@@ -99,11 +116,12 @@ que no nos agrade.
 
 - Y se visualizará nuestra pagina o sitió web en: 
 ```
-    http://127.0.0.1:5500/index.html 
+    http://127.0.0.1:5500/index.html
     o similar respecto al puerto.
   
-    Hasta aquí estamos viendo el resultado 
-        de nuestro trabajo en la PC. 
+    Hasta aquí estamos viendo 
+    el resultado de nuestro 
+    trabajo en la PC. 
 ```
 ----------------------------------------
 
@@ -122,9 +140,10 @@ que no nos agrade.
 ## Ahora abrimos la cónsola de Linux, o Terminal de Gnome o lo que tengas como terminal escribes esta orden: 
 ----------------------------------------
 ```
-      adb reverse tcp:5500 tcp:5500
+  adb reverse tcp:5500 tcp:5500
 
-      Nota: el puerto debe ser el mismo que el del servidor.
+  Nota: el puerto debe ser 
+  el mismo que el del servidor.
 
       Mirá la imagen...
 ```
@@ -137,13 +156,19 @@ que no nos agrade.
 ## Abrimos nuestro navegador en el teléfono móvil e ingresamos la misma dirección que antes 
 es decir:
 ```
-      http://127.0.0.1:5500/index.html
+http://127.0.0.1:5500/index.html
 
-      donde Live está mostrando nuestro proyecto.
+donde Live está mostrando 
+nuestro proyecto.
       y listo!
 
-      estarás viendo el resultado de tu proyecto, en simultáneo 
-      en la PC y en el formato móvil.
+Estarás viendo el resultado 
+de tu proyecto, 
+en simultáneo 
+en la PC y en el formato móvil
+con actualización de la vista 
+previa automática
+en cada dispositivo.
 ```
 ----------------------------------------
 ## 🔧 Creeme acelera mucho tu trabajo.
@@ -152,9 +177,10 @@ es decir:
       Y en el camino no necesitas 
       tener tu equipo conectado 
       a Internet ni a ninguna red, 
-      lo que te da un margen de seguridad inmenso.
+      lo que te da un margen 
+      de seguridad inmenso.
 
-      En mi caso si no uso Internet 
+      En mi caso si no uso Internet
       con un juego de teclas 
       conecto o desconecto Internet 
       en menos de lo se pestañea.      
