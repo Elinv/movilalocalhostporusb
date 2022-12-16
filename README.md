@@ -185,6 +185,15 @@ en cada dispositivo.
   conecto o desconecto Internet
   en menos de lo se pestañea.      
 ```
+
+# Mas seguridad
+----------------------------------------
+- Funciona con el cortafuegos activado. 
+- Impidiendo todas las conexiones entrantes
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./cortafuegos_activado.png" alt="Aun con el cortafuegos activado, la conexión es posible."></a>
+</p>
 ----------------------------------------
 
 ## Saludos y bendiciones!
