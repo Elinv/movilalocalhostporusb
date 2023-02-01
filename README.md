@@ -1,8 +1,13 @@
 # Editar HTML en simultáneo en PC y MOVIL.
-## DEPURAR JAVASCRIPT PAGINA WEB EN DISPOSITIVO MÓVIL EN EDGE.
-### (Miécoles 1 de Febrero de 2023)
+
+---
+
+# 🔧 ACTUALIZACIÓN MIERCOLES 1 DE FEBRERO DE 2023.
+## 🔧 DEPURAR JAVASCRIPT PAGINA WEB EN DISPOSITIVO MÓVIL EN EDGE
+[Ir a la Seccion agregada de depuración en dispositivos móviles.](#moviles)
 ---
 ## 🧐 Elinv <a name = "Elinv"></a>
+
 ----------------------------------------
 <p align="center">
   <a href="" rel="noopener">
@@ -200,6 +205,7 @@ en cada dispositivo.
 ----------------------------------------
 
 ----------------------------------------
+# moviles
 # 🔧 ACTUALIZACIÓN MIERCOLES 1 DE FEBRERO DE 2023.
 ## 🔧 DEPURAR JAVASCRIPT PAGINA WEB EN DISPOSITIVO MÓVIL EN EDGE
 ----------------------------------------
