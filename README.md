@@ -1,9 +1,12 @@
-## Editar HTML en simultáneo en PC y MOVIL.
+# Editar HTML en simultáneo en PC y MOVIL.
+## DEPURAR JAVASCRIPT PAGINA WEB EN DISPOSITIVO MÓVIL EN EDGE.
+### (Miécoles 1 de Febrero de 2023)
+---
 ## 🧐 Elinv <a name = "Elinv"></a>
 ----------------------------------------
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./naha-elinv.png" alt="Editar HTML en simultáneo en PC y MOVIL"></a>
+ <img width=400px height=400px src="./imgconexusb/naha-elinv.png" alt="Editar HTML en simultáneo en PC y MOVIL"></a>
 </p>
 
 ## 🏁 Iniciemos ⛏️
@@ -111,7 +114,7 @@ que no nos agrade.
 
 <p align="center">
   <a href="" rel="noopener">
- <img src="./live-server-ejecutar.png" alt="Ejecutar Live Server en Visual Studio Code."></a>
+ <img src="./imgconexusb/live-server-ejecutar.png" alt="Ejecutar Live Server en Visual Studio Code."></a>
 </p>
 
 - Y se visualizará nuestra pagina o sitió web en: 
@@ -131,7 +134,7 @@ que no nos agrade.
 
 <p align="center">
   <a href="" rel="noopener">
- <img src="./permitir depuración USB.jpg" alt="Permitir depuración USB."></a>
+ <img src="./imgconexusb/permitir depuración USB.jpg" alt="Permitir depuración USB."></a>
 </p>
 
 - En mi caso, presiono "Permitir!"
@@ -150,7 +153,7 @@ que no nos agrade.
 ----------------------------------------
 <p align="center">
   <a href="" rel="noopener">
- <img src="./adb.png" alt="Permitir depuración USB."></a>
+ <img src="./imgconexusb/adb.png" alt="Permitir depuración USB."></a>
 </p>
 
 ## Abrimos nuestro navegador en el teléfono móvil e ingresamos la misma dirección que antes 
@@ -192,9 +195,152 @@ en cada dispositivo.
 - Impidiendo todas las conexiones entrantes
 <p align="center">
   <a href="" rel="noopener">
- <img src="./cortafuegos_activado.png" alt="Aun con el cortafuegos activado, la conexión es posible."></a>
+ <img src="./imgconexusb/cortafuegos_activado.png" alt="Aun con el cortafuegos activado, la conexión es posible."></a>
 </p>
 ----------------------------------------
+
+----------------------------------------
+# 🔧 ACTUALIZACIÓN MIERCOLES 1 DE FEBRERO DE 2023.
+## 🔧 DEPURAR JAVASCRIPT PAGINA WEB EN DISPOSITIVO MÓVIL EN EDGE
+----------------------------------------
+```
+Ver la consola de las acciones llevadas a cabo en el teléfono móvil.  
+
+Ver los mensajes de alertas por nosotros programados para depurar errores de la aplicación web, pero respecto de los eventos propios del teléfono móvil.
+
+Es posible, es bastante fácil, y se puede realizar en segundos, a través de los navegadores que hoy nos proveen Google, Microsoft, e inclusive algún otro. 
+
+Para esta prueba hemos utilizado 
+Microsoft Edge, en su 102.0.1245.33 (Compilación oficial) (64 bits) en la PC, 
+
+y en el móvil instalada 
+la última versión de EDGE, a través de GOOGLE PLAY.
+```
+
+----------------------------------------
+## 🔧 En nuestro espacio de trabajo en VISUAL STUDIO CODE
+----------------------------------------
+```
+  Ejecutamos en el servidor en este caso nuestro server.
+
+  PHP server y se nos despliega nuestro localhost en el puerto 3000.
+
+  En la PC se vería así.
+
+```
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/vsc-ejecutar-php-server.jpg" alt="En visual studio code ejecutamos php server."></a>
+</p>
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/localhostpc.jpg" alt="Vista del localhost y la pagina web en edición en Visual Studio Code."></a>
+</p>
+
+----------------------------------------
+## 🔧 CONECTAR EL TELEFONO VIA USB AL PC
+----------------------------------------
+```
+  Y ejecutan en la consola de Linux(nuestro caso) 
+  la siguiente directiva:
+  
+  adb reverse tcp:3000 tcp:3000
+
+```
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/adbreverse.jpg" alt="Adb reverse tcp:3000 tcp:3000."></a>
+</p>
+
+## En el teléfono aparecerá la solicitud de permiso.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/telefono movil permitir depuracion.jpeg" alt="Adb reverse tcp:3000 tcp:3000."></a>
+</p>
+
+## En la consola veran lo siguiente:
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/adb confirmado.jpg" alt="Adb confirmado."></a>
+</p>
+
+## Y en el celular al recargar el navegador accederán al localhost así.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/localhost en movil.jpeg" alt="Localhost en el teléfono móvil"></a>
+</p>
+
+## Aquí tienen una vista de depuración en EDGE en la PC.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/vistapcdepuracionedge.jpg" alt="Vista depuración en Edge"></a>
+</p>
+
+## Ahora para tener en paralelo la depuración del teléfono celular.
+### abrimos una nueva ventana de edge en el PC, y escribimos:
+### edge://inspect/#devices y se verá así:
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/inspector edge para el movil.jpg" alt="Inspector Edge para el móvil"></a>
+</p>
+
+## Vemos que aparece 
+
+### ⚠ Remote browser is newer than client browser. Try `inspect fallback` if inspection fails.
+
+### Planilla de calculo Elinv. http://127.0.0.1:3000/calculadora.html
+
+### Hacemos click en "inspect" y emerge una nueva ventana que se ve así.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/inspector edge del movil 1.jpg" alt="Inspector Edge del móvil en acción"></a>
+</p>
+
+
+# En nuestra aplicacion web he puesto una directiva que solo aplica al teléfono móvil ejemplo:
+```
+let ontouchendFunc = (event) => { 
+	alert('Evento on touch end exitoso!');
+	console.log('Evento on touch end exitoso!');
+};
+
+```
+
+### aplicado al campo de la formula
+
+```
+$id('formula').ontouchend = ontouchendFunc;
+
+```
+### Resultados en el teléfono y en el Inspector de Edge:
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/mensaje depuracion movil no pc0.jpg" alt="Mensaje de depuración de código en dispositivo móvil con Alert en el propio dispositivo."></a>
+</p>
+
+## Observen que en el inspector Edge de la pagina web de la PC, 
+## no se observan los mensajes on touch end del móvil, y si en el 
+## inspector Edge del móvil
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img src="./imgetapadepuracion/mensaje depuracion movil no pc1.jpg" alt="Mensaje de depuración de código en dispositivo móvil en inspector movil de Edge"></a>
+</p>
+
+# Por último:
+
+## Observen que cualquier acción que lleven adelante en el inspector de Edge se reflejará en el dispositivo móvil, y a la inversa, pasará lo mismo.
+
+### Prueben en el inspector Edge del móvil a hacer click en alguna parte de la pagina web, y veran como el foco hacia elemento cambia en el móvil y a lo mismo en dirección contraria.
+---
 
 ## Saludos y bendiciones!
 ----------------------------------------
